@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>$RUGCAT - Meme Coin</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>$RUGCAT</h1>
+    <p>I came to rug... but stayed to moon.</p>
+    <p><strong>Token Address:</strong> csVQRqbtYVaCQizmebdodgJmbhN3WN1F5pqtRiWpump
+        <button onclick="copyTokenAddress()">Copy</button>
+    </p>
+    <script>
+        function copyTokenAddress() {
+            const tokenAddress = "csVQRqbtYVaCQizmebdodgJmbhN3WN1F5pqtRiWpump";
+            navigator.clipboard.writeText(tokenAddress).then(function() {
+                alert("Token address copied to clipboard!");
+            });
+        }
+    </script>
+</body>
+</html>
